@@ -1,2 +1,2 @@
-name = "my-portfolio"
+project = "my-portfolio"        # must match the Pages project name in the dashboard
 pages_build_output_dir = "dist"
