@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer
       style={{
-        backgroundColor: '#ffeb3b', // amarillo
+        backgroundColor: '#fff', // white background
         marginTop: 'auto', // empuja el footer hacia abajo
         width: '100%',
       }}

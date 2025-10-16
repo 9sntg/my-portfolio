@@ -4,7 +4,7 @@ import { Typewriter } from 'react-simple-typewriter';
 
 function App() {
   return (
-    <div style={{ backgroundColor: '#e6f3ff', minHeight: '100vh', display: 'flex', flexDirection: 'column', width: '100%' }}>
+    <div style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', width: '100%' }}>
       <Navbar />
       <main
         style={{
