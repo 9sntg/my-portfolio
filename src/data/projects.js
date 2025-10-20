@@ -226,7 +226,11 @@ export const academicProjects = [
     outcome: 'Built and deployed a functional booking platform with user authentication, service scheduling, and payment tracking features, improving coordination between pet owners and walkers.',
     image: '/images/projects/dog.png',
     tags: ['#booking-system', '#web-app'],
-    description: 'Collaborated in a cross-functional team to design, develop, and deploy a full web solution for pet walking bookings and payments.'
+    description: 'Collaborated in a cross-functional team to design, develop, and deploy a full web solution for pet walking bookings and payments.',
+    github: [
+      { name: 'Backend Repository', url: 'https://github.com/9sntg/canem-backend' },
+      { name: 'Frontend Repository', url: 'https://github.com/9sntg/canem-frontend' }
+    ]
   },
   {
     id: 1,
@@ -240,7 +244,10 @@ export const academicProjects = [
     outcome: 'Delivered a modular microservices architecture enabling scalability, observability, and independent service deployment while reducing inter-service dependencies.',
     image: '/images/projects/chiper.png',
     tags: ['#microservices', '#architecture', '#startup'],
-    description: 'Redesigned Chiper’s cloud architecture to improve scalability, resilience, and modularity through a microservices-based design.'
+    description: 'Redesigned Chiper’s cloud architecture to improve scalability, resilience, and modularity through a microservices-based design.',
+    github: [
+      { name: 'Project Repository', url: 'https://github.com/9sntg/chiper-architecture' }
+    ]
   },
   {
     id: 2,
@@ -254,7 +261,10 @@ export const academicProjects = [
     outcome: 'Delivered a responsive content management and delivery platform that centralized course materials, streamlined instructor workflows, and improved accessibility for students.',
     image: '/images/projects/courses.png',
     tags: ['#web-development', '#react'],
-    description: 'Developed a full stack system for managing, updating, and distributing academic content across graduate courses.'
+    description: 'Developed a full stack system for managing, updating, and distributing academic content across graduate courses.',
+    github: [
+      { name: 'Main Repository', url: 'https://github.com/9sntg/mooc-react' }
+    ]
   },
   {
     id: 3,
@@ -296,7 +306,11 @@ export const academicProjects = [
     outcome: 'Delivered a fully functional distributed system integrating TomEE-based backend services with MongoDB for event logging and data persistence. Developed an analytics dashboard to visualize query trends and usage metrics, and deployed an Android client for real-time dictionary access with API-driven definitions.',
     image: '/images/projects/dictionary.png',
     tags: ['#distributed-systems', '#android', '#mongodb'],
-    description: 'Built a distributed Java system with real-time API queries, MongoDB logging, and Android interface for definitions and analytics visualization.'
+    description: 'Built a distributed Java system with real-time API queries, MongoDB logging, and Android interface for definitions and analytics visualization.',
+    github: [
+      { name: 'Android App', url: 'https://github.com/9sntg/dictionary-app' },
+      { name: 'Web Server', url: 'https://github.com/9sntg/dictionary-web-service' }
+    ]
   },
   {
     id: 6,
@@ -310,7 +324,10 @@ export const academicProjects = [
     outcome: 'Delivered a production-grade recommendation service with automated ETL, experiment tracking, and continuous model deployment using MLflow. Achieved stable real-time inference performance, modular containerization via Docker Compose, and reproducible pipelines supporting A/B evaluation across multiple model versions.',
     image: '/images/projects/movies.png',
     tags: ['#mlops', '#recommendation-system', '#devops'],
-    description: 'Developed an end-to-end recommender integrating Kafka streaming, MLflow tracking, and Dockerized microservices for scalable, low-latency movie predictions.'
+    description: 'Developed an end-to-end recommender integrating Kafka streaming, MLflow tracking, and Dockerized microservices for scalable, low-latency movie predictions.',
+    github: [
+      { name: 'Movie Recommender System', url: 'https://github.com/9sntg/group-project-s25-the-sixth-sense' },
+    ]
   },
   {
     id: 7,
@@ -324,7 +341,12 @@ export const academicProjects = [
     outcome: 'Built an interactive learning platform that retrieved curated financial content and generated traceable, adaptive answers through a Milvus-powered RAG pipeline.',
     image: '/images/projects/lucas.png',
     tags: ['#rag', '#nlp', '#learning-platform'],
-    description: 'Created a financial learning assistant integrating LangChain orchestration, Milvus retrieval, and a Streamlit interface for transparent, source-cited question answering.'
+    description: 'Created a financial learning assistant integrating LangChain orchestration, Milvus retrieval, and a Streamlit interface for transparent, source-cited question answering.',
+    github: [
+      { name: 'Assignment 1: Prompt Engineering', url: 'https://github.com/9sntg/assignment-1-prompt-engineering' },
+      { name: 'Assignment 2: RAG Evaluation', url: 'https://github.com/9sntg/assignment-2-rag' },
+      { name: 'Assignment 3: Learning Portal', url: 'https://github.com/9sntg/assignment-3-learning-portall' },
+    ]
   },
   {
     id: 8,
@@ -338,7 +360,11 @@ export const academicProjects = [
     outcome: 'Delivered a containerized system for streaming, training, inference, and drift monitoring with real-time visualization.',
     image: '/images/projects/air-quality.png',
     tags: ['#mlops', '#forecasting', '#real-time'],
-    description: 'Developed a real-time air quality forecasting system with Kafka streaming, MLflow tracking, and Evidently drift detection, orchestrated via Docker Compose and monitored through a Streamlit dashboard.'
+    description: 'Developed a real-time air quality forecasting system with Kafka streaming, MLflow tracking, and Evidently drift detection, orchestrated via Docker Compose and monitored through a Streamlit dashboard.',
+    github: [
+      { name: 'Group Project', url: 'https://github.com/9sntg/data-streams-quest-group-project' },
+      { name: 'Individual Assignment', url: 'https://github.com/9sntg/data-stream-quest-individual' },
+    ]
   },
   {
     id: 9,
