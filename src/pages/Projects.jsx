@@ -20,7 +20,7 @@ function Projects() {
       <div className="project-detail-overlay" onClick={() => setSelectedProject(null)}>
         <div className="project-detail-panel" onClick={(e) => e.stopPropagation()}>
           <button className="close-btn" onClick={() => setSelectedProject(null)}>×</button>
-          <img src={project.image} alt={project.title} className="detail-image" />
+          <img src={project.detailImage || project.image} alt={project.title} className="detail-image" />
           <h2 className="detail-title">{project.title}</h2>
           <p className="detail-description">{project.description}</p>
 
@@ -200,7 +200,7 @@ function Projects() {
               onClick={() => setSelectedProject(project)}
               style={{ cursor: 'pointer' }}
             >
-              <img src={project.image} alt={project.title} className="project-image" />
+              <img src={project.image} alt={project.title} className="project-image" loading="lazy" />
               <div className="project-content">
                 <h2 className="project-title">{project.title}</h2>
                 <p className="project-description">{project.description}</p>
@@ -223,7 +223,7 @@ function Projects() {
               onClick={() => setSelectedProject(project)}
               style={{ cursor: 'pointer' }}
             >
-              <img src={project.image} alt={project.title} className="project-image" />
+              <img src={project.image} alt={project.title} className="project-image" loading="lazy" />
               <div className="project-content">
                 <h2 className="project-title">{project.title}</h2>
                 <p className="project-description">{project.description}</p>

@@ -22,30 +22,30 @@ const initialCards = [
     title: '',
     text: (
     <>
-    I'm a Systems and Computer Engineer focused on expanding my expertise in data analytics and AI.<br></br> I’m passionate about building meaningful products that serve real people and are powered by relevant, modern technologies. <br></br>Currently based between Colombia and Pittsburgh, I bring experience in both IT and business consulting,
+    I'm a Systems and Computer Engineer focused on expanding my expertise in data analytics and AI.<br></br> I'm passionate about building meaningful products that serve real people and are powered by relevant, modern technologies. <br></br>Currently based between Colombia and Pittsburgh, I bring experience in both IT and business consulting,
     </>),
-    image: '/images/about/black.png',
+    image: '/small_images/about/black_medium.webp',
     color: '#ffffff'
   },
   {
     id: '2',
     title: '',
     text: '',
-    image: '/images/about/bogota.png',
+    image: '/small_images/about/bogota_medium.webp',
     color: '#ffffff'
   },
   {
     id: '3',
     title: '',
     text: '',
-    image: '/images/about/parque_tayrona.png',
+    image: '/small_images/about/parque_tayrona_medium.webp',
     color: '#ffffff'
   },
   {
     id: '4',
     title: '',
     text: '',
-    image: '/images/about/paramo.png',
+    image: '/small_images/about/paramo_medium.webp',
     color: '#ffffff'
   },
   {
@@ -53,9 +53,9 @@ const initialCards = [
   title: '',
   text: (
     <>
-    I'm currently an AI Engineering Intern at Atria, a startup developing AI agents to automate client conversations across social media. <br></br>I'm learning how to design consistent, scalable architectures and integrate AI systems with both social media platforms and customer infrastructures. <br></br>It’s a hands-on role where engineering meets communication.
+    I'm currently pursuing a Master's degree in Information Systems Management at Carnegie Mellon University, focusing on data analytics and AI applications. <br></br>I'm learning how to design scalable architectures and integrate AI systems with business processes and customer infrastructures. <br></br>It's an exciting journey where technology meets real-world problem solving.
     </>),
-  image: '/images/about/black.png', // update with a relevant image path later
+  image: '/small_images/about/black_medium.webp',
   color: '#ffffff'
 },
 {
@@ -63,16 +63,16 @@ const initialCards = [
   title: '',
   text: (
     <>
-    When I’m not building things, you’ll find me outdoors—hiking, or just wandering with Shiro, my dog and best adventure buddy.<br></br>I’m a recent Formula 1 fan (go McLaren!), and one of my deepest dreams is to someday cross the Pacific Ocean in a sailboat.,
+    When I'm not building things, you'll find me outdoors—hiking, or just wandering with Shiro, my dog and best adventure buddy.<br></br>I'm a recent Formula 1 fan (go McLaren!), and one of my deepest dreams is to someday cross the Pacific Ocean in a sailboat.,
     </>),
-  image: '/images/about/black.png', // Replace with your preferred image
+  image: '/small_images/about/black_medium.webp',
   color: '#ffffff'
 },
 {
   id: '7',
   title: '',
   text: '',
-  image: '/images/about/pittsburgh.png', // Replace with your preferred image
+  image: '/small_images/about/pittsburgh_medium.webp',
   color: '#fff'
 }
 ];
@@ -103,6 +103,7 @@ function SortableCard({ id, title, text, image, color = '#000' }) {
         <img
           src={image}
           alt={title}
+          loading="lazy"
           style={{
             width: '100%',
             height: '100%',

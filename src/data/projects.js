@@ -12,7 +12,8 @@ export const professionalProjects = [
     problem: 'The company’s legacy ERP was reaching end-of-support, creating operational risks and limiting scalability. A new solution was needed to align with long-term business needs and integration requirements.',
     solution: 'Supported the design of an evaluation framework covering functional, technical, financial, and risk dimensions. Collaborated with business stakeholders to gather requirements, assess vendor solutions, and validate integration scenarios. Contributed to cost-benefit and ROI analysis that led to the selection of Microsoft Dynamics with minimal customization needs.',
     techStack: ['IT Architecture', 'Negotiation', 'APIs'],
-    image: '/images/projects/software.png',
+    image: '/small_images/projects/software_small.webp',
+    detailImage: '/small_images/projects/software_medium.webp',
     tags: ['#erp-selection', '#business-analysis'],
     description: 'Contributed to ERP evaluation and selection, supporting requirement analysis, vendor assessment, and integration validation for long-term scalability.'
   },
@@ -27,7 +28,8 @@ export const professionalProjects = [
     problem: 'Corficolombiana faced high operational costs and low customer satisfaction due to inefficiencies in procurement, payments, and client onboarding workflows.',
     solution: 'Redesigned core processes using Lean methodology and Agile practices. Facilitated workshops with cross-functional teams to identify waste, optimize cycle times, and capture early improvements. Built a performance measurement framework and trained internal teams to sustain continuous improvement.',
     techStack: ['Lean', 'Agile', 'Scrum'],
-    image: '/images/projects/agile.png',
+    image: '/small_images/projects/agile_small.webp',
+    detailImage: '/small_images/projects/agile_medium.webp',
     tags: ['#lean', '#processes', '#financial-services'],
     description: 'Optimized key financial processes through Lean interventions and Agile implementation, reducing inefficiencies and improving customer experience.'
   },
@@ -42,7 +44,8 @@ export const professionalProjects = [
     problem: 'Banco W lagged behind competitors in delivering digital financial services, lacking a structured transformation strategy to enhance customer engagement and operational efficiency.',
     solution: 'Conducted research on market trends, customer expectations, and emerging fintech practices. Proposed four key initiatives: a mobile app roadmap, gamification strategy to boost client retention, creation of an innovation office, and a governance framework to ensure continuous alignment between IT and business objectives. Designed a management model to operationalize and monitor these initiatives.',
     techStack: ['Digital Strategy', 'Research', 'IT Architecture'],
-    image: '/images/projects/digital-trans.png',
+    image: '/small_images/projects/digital-trans_small.webp',
+    detailImage: '/small_images/projects/digital-trans_medium.webp',
     tags: ['#digital-transformation', '#it-strategy', '#banking'],
     description: 'Developed a digital transformation roadmap integrating governance, innovation, and user engagement to strengthen Banco W’s market position.'
   },
@@ -57,7 +60,8 @@ export const professionalProjects = [
     problem: 'Banco W, a leading Colombian microfinance institution, was experiencing stagnant portfolio growth and increasing competition from digital lenders. Leadership needed a data-driven strategy to regain market share and identify scalable opportunities aligned with the bank’s inclusion mission.',
     solution: 'Conducted an in-depth diagnostic combining portfolio segmentation, demographic analysis, and competitive benchmarking. Assessed the bank’s digital maturity and identified capability gaps limiting growth. Designed a multi-year strategic roadmap focused on digitization, customer inclusion, and product diversification. Built interactive Power BI dashboards to visualize portfolio performance and enable data-informed decision-making for executives.',
     techStack: ['Data Analysis', 'Power BI', 'Financial Modeling'],
-    image: '/images/projects/strategy.png',
+    image: '/small_images/projects/strategy_small.webp',
+    detailImage: '/small_images/projects/strategy_medium.webp',
     tags: ['#strategy', '#data-analysis', '#microfinance'],
     description: 'Delivered a data-driven roadmap and executive dashboards guiding Banco W’s growth priorities in microfinance and digital inclusion.'
   },
@@ -72,7 +76,8 @@ export const professionalProjects = [
     problem: 'A mid-sized automotive manufacturer in Ecuador was facing financial distress due to declining sales, fragmented operations, and high fixed costs. Leadership needed a structured turnaround strategy to restore profitability and ensure short-term liquidity while preserving key business capabilities.',
     solution: 'Conducted an in-depth diagnostic of the company’s operations, cost structure, and market positioning. Recommended merging underperforming business units to reduce operational redundancy and improve margins. Designed new commercial and pricing strategies focused on expanding market reach and improving customer retention. Built financial models to estimate the impact of proposed measures and presented a phased execution roadmap to senior management for immediate implementation.',
     techStack: ['Financial Modeling', 'Data Analysis', 'Market Research'],
-    image: '/images/projects/motos.png',
+    image: '/small_images/projects/motos_small.webp',
+    detailImage: '/small_images/projects/motos_medium.webp',
     tags: ['#turnaround', '#modeling', '#market-analysis'],
     description: 'Developed a comprehensive turnaround strategy combining cost-reduction initiatives, organizational restructuring, and market-driven commercial strategies to restore profitability and stabilize operations.'
   },
@@ -87,7 +92,8 @@ export const professionalProjects = [
     problem: 'Krealo, the corporate venture arm of Credicorp, was evaluating an investment in Monokera, a Latin American insurtech startup. The fund required a rigorous technical due diligence to determine whether Monokera’s platform could scale to regional markets while maintaining reliability, security, and compliance with financial regulations.',
     solution: 'Led a comprehensive technical assessment of Monokera’s architecture, including its microservices, API ecosystem, and database structures. Evaluated the platform’s scalability, cloud readiness, and resilience under projected transaction loads. Identified architectural bottlenecks and potential security vulnerabilities that could impact expansion. Collaborated closely with Monokera’s CTO and Krealo’s investment team to align technical findings with business risk exposure. Delivered a final due diligence report and a modernization roadmap recommending migration to Azure services, improved observability, and modular refactoring to support long-term growth.',
     techStack: ['Azure', 'Microservices', 'APIs', 'Databases', 'Architecture Review', 'Cloud Readiness'],
-    image: '/images/projects/due.png',
+    image: '/small_images/projects/due_small.webp',
+    detailImage: '/small_images/projects/due_medium.webp',
     tags: ['#due-diligence', '#microservices', '#azure'],
     description: 'Conducted technical due diligence for Krealo’s investment in Monokera; evaluated scalability, security, and cloud readiness, and proposed an Azure-based modernization roadmap supporting regional expansion.'
   },
@@ -102,7 +108,8 @@ export const professionalProjects = [
     problem: 'The regulator’s outdated IT strategy and fragmented data architecture hindered its ability to oversee national capital markets and prepare for regional integration with Peru and Chile.',
     solution: 'Redesigned the organization’s IT and data strategy by defining a modern, Azure-based architecture for market surveillance, enabling advanced analytics and cross-market supervision. Identified obsolescence risks, proposed governance mechanisms, and developed an analytics roadmap with five fraud-detection and monitoring use cases to enhance transparency and oversight.',
     techStack: ['Azure', 'Data Architecture', 'Machine Learning', 'IT Strategy'],
-    image: '/images/projects/amv.png',
+    image: '/small_images/projects/amv_small.webp',
+    detailImage: '/small_images/projects/amv_medium.webp',
     tags: ['#data-strategy', '#market-surveillance', '#azure'],
     description: 'Defined a future-ready Azure data architecture and analytics roadmap that enhanced fraud detection, modernized market oversight, and supported regional stock market integration.'
   },
@@ -117,7 +124,8 @@ export const professionalProjects = [
     problem: 'The organization lacked a clear structure for IT and data roles, as well as training programs to meet its digital transformation goals.',
     solution: 'Assessed current IT and analytics capabilities, mapped organizational gaps, and defined a target structure with role profiles, hiring plans, and upskilling/reskilling initiatives to align team capabilities with strategic objectives.',
     techStack: ['Organizational Design', 'Capability Mapping', 'Stakeholder Interviews'],
-    image: '/images/projects/team.png',
+    image: '/small_images/projects/team_small.webp',
+    detailImage: '/small_images/projects/team_medium.webp',
     tags: ['#talent', '#organization-design', '#digital-strategy'],
     description: 'Redesigned IT and analytics organizational structure and training roadmap to align workforce capabilities with digital transformation goals.'
   },
@@ -132,7 +140,8 @@ export const professionalProjects = [
     problem: 'The company experienced a major cyberattack that exposed the lack of defined security roles, governance structures, and risk mitigation practices.',
     solution: 'Redesigned the cybersecurity governance model, clarified accountability across teams, quantified financial exposure from vulnerabilities, and developed a prioritized roadmap of security initiatives to strengthen operational resilience.',
     techStack: ['Cybersecurity', 'Governance Frameworks', 'Risk Modeling'],
-    image: '/images/projects/security.png',
+    image: '/small_images/projects/security_small.webp',
+    detailImage: '/small_images/projects/security_medium.webp',
     tags: ['#cybersecurity', '#governance-model'],
     description: 'Defined cybersecurity governance and prioritized initiatives to rebuild resilience after a critical cyber incident.'
   },
@@ -147,7 +156,8 @@ export const professionalProjects = [
     problem: 'Barranquilla sought to position itself as a hyperscale data center hub for Latin America but required a comprehensive assessment of technical, financial, and infrastructural viability to attract private investment.',
     solution: 'Led feasibility analysis covering energy capacity, fiber infrastructure, and regulatory conditions. Built financial and operational models to estimate investment needs and ROI. Coordinated with public officials, private investors, and telecom providers to validate assumptions and define an investment strategy positioning Barranquilla as a competitive regional data hub.',
     techStack: ['Financial Modeling', 'Stakeholder Management', 'Excel'],
-    image: '/images/projects/data.png',
+    image: '/small_images/projects/data_small.webp',
+    detailImage: '/small_images/projects/data_medium.webp',
     tags: ['#data-centers', '#feasibility-study', '#public-sector'],
     description: 'Evaluated technical and financial feasibility for establishing a hyperscale data center hub in Barranquilla; coordinated with government and private investors to define infrastructure and investment strategy.'
   },
@@ -162,7 +172,8 @@ export const professionalProjects = [
     problem: 'Following a acquisition, the bank needed to migrate loan portfolio and customer data between legacy and target systems, ensuring accuracy, regulatory compliance, and zero service disruption across multiple business units.',
     solution: 'Led the data and technology workstream within a multi-team program, coordinating with product, operations, and compliance leads to define data requirements and dependencies. Designed and executed the migration plan, including schema mapping, transformation logic, automated reconciliation scripts, and validation protocols. Delivered a fully documented process to support audit readiness and business continuity.',
     techStack: ['SQL', 'Python', 'APIs'],
-    image: '/images/projects/migration.png',
+    image: '/small_images/projects/migration_small.webp',
+    detailImage: '/small_images/projects/migration_medium.webp',
     tags: ['#data-migration', '#banking'],
     description: 'Directed the data and technology workstream for a banking merger; led end-to-end migration with full validation, inter-team coordination, and zero client disruption.'
   },
@@ -177,7 +188,8 @@ export const professionalProjects = [
     problem: 'Clients and internal teams lacked real-time visibility into AI agent performance, making it difficult to identify drop-offs, optimize conversations, and measure ROI across deployments.',
     solution: 'Designed and implemented an interactive analytics dashboard that tracked key performance indicators such as funnel progression, conversation drop-offs, and conversion rates. Integrated business-aligned metrics into client reporting to support data-driven decision-making.',
     techStack: ['JavaScript', 'MongoDB', 'Recharts'],
-    image: '/images/projects/atria-dashboard.png',
+    image: '/small_images/projects/atria-dashboard_small.webp',
+    detailImage: '/small_images/projects/atria-dashboard_medium.webp',
     tags: ['#data-visualization', '#client-insights'],
     description: 'Built an analytics dashboard providing real-time visibility into AI agent performance; enhanced client reporting and data-driven decision-making.'
   },
@@ -192,7 +204,8 @@ export const professionalProjects = [
     problem: 'Atria’s QA process for AI agents relied heavily on manual review, making it difficult to detect performance drift or ensure consistent behavior across client deployments. This limited testing scalability and delayed delivery timelines.',
     solution: 'Developed a testing framework that included a simulation agent to replicate client conversations and a reviewer agent to automatically evaluate compliance, tone, and performance. The framework automated regression testing and improved quality assurance coverage.',
     techStack: ['OpenRouter', 'OpenAI', 'JavaScript', 'AWS Lambda','MongoDB'],
-    image: '/images/projects/atria-testing.png',
+    image: '/small_images/projects/atria-testing_small.webp',
+    detailImage: '/small_images/projects/atria-testing_medium.webp',
     tags: ['#ai-agents', '#quality-assurance', '#llm-judge'],
     description: 'Automated testing for AI agents using simulation and reviewer agents; improved QA coverage, reduced manual effort, and enabled scalable performance monitoring.'
   },
@@ -207,7 +220,8 @@ export const professionalProjects = [
     problem: 'Atria’s operations team faced major inefficiencies in managing AI agent contexts. Many clients had similar agents within the same industry, but updates made to one context did not propagate to others. This caused duplication, inconsistent outputs, and heavy manual effort when onboarding new clients or revising existing setups.',
     solution: 'Engineered a modular context management system with 350+ reusable and versioned instructions, enabling dynamic prompt generation and centralized updates across 50+ client deployments in food, collections, and service industries. The system reduced manual maintenance and accelerated onboarding for new clients.',
     techStack: ['JavaScript', 'MongoDB'],
-    image: '/images/projects/atria-context.png',
+    image: '/small_images/projects/atria-context_small.webp',
+    detailImage: '/small_images/projects/atria-context_medium.webp',
     tags: ['#context-management', '#ai-agents'],
     description: 'Built a modular, reusable context system supporting 50+ AI agent deployments; enabled centralized updates, improved scalability, and reduced onboarding time for new clients.'
   }
@@ -224,7 +238,8 @@ export const academicProjects = [
     goal: 'Design and implement a web-based platform allowing users to schedule, manage, and pay for pet walking services in real time.',
     techStack: ['Java Spring', 'SQL', 'HTML', 'CSS', 'JavaScript'],
     outcome: 'Built and deployed a functional booking platform with user authentication, service scheduling, and payment tracking features, improving coordination between pet owners and walkers.',
-    image: '/images/projects/dog.png',
+    image: '/small_images/projects/dog_small.webp',
+    detailImage: '/small_images/projects/dog_medium.webp',
     tags: ['#booking-system', '#web-app'],
     description: 'Collaborated in a cross-functional team to design, develop, and deploy a full web solution for pet walking bookings and payments.',
     github: [
@@ -242,7 +257,8 @@ export const academicProjects = [
     goal: 'Redesign the system architecture of Chiper, a Latin American e-commerce startup, to transition from a monolithic application to a scalable, cloud-based microservices environment.',
     techStack: ['AWS', 'APIs', 'Docker', 'S3', 'EC2'],
     outcome: 'Delivered a modular microservices architecture enabling scalability, observability, and independent service deployment while reducing inter-service dependencies.',
-    image: '/images/projects/chiper.png',
+    image: '/small_images/projects/chiper_small.webp',
+    detailImage: '/small_images/projects/chiper_medium.webp',
     tags: ['#microservices', '#architecture', '#startup'],
     description: 'Redesigned Chiper’s cloud architecture to improve scalability, resilience, and modularity through a microservices-based design.',
     github: [
@@ -259,7 +275,8 @@ export const academicProjects = [
     goal: 'Design and implement a web-based system to manage and distribute digital course materials, enabling structured permissions, version control, and collaborative updates between instructors and students.',
     techStack: ['React', 'Node.js', 'PostgreSQL'],
     outcome: 'Delivered a responsive content management and delivery platform that centralized course materials, streamlined instructor workflows, and improved accessibility for students.',
-    image: '/images/projects/courses.png',
+    image: '/small_images/projects/courses_small.webp',
+    detailImage: '/small_images/projects/courses_medium.webp',
     tags: ['#web-development', '#react'],
     description: 'Developed a full stack system for managing, updating, and distributing academic content across graduate courses.',
     github: [
@@ -276,7 +293,8 @@ export const academicProjects = [
     goal: 'Analyze and optimize the medication distribution process at Militar Central Hospital in Bogotá by mapping current workflows, identifying operational bottlenecks, and quantifying performance gaps using process mining techniques.',
     techStack: ['Apromore', 'Process Simulation'],
     outcome: 'Developed and validated redesigned workflows through process simulation, achieving measurable reductions in patient wait times and more efficient staff allocation. Delivered implementation guidelines to sustain improvements within hospital operations.',
-    image: '/images/projects/pharmacy.png',
+    image: '/small_images/projects/pharmacy_small.webp',
+    detailImage: '/small_images/projects/pharmacy_medium.webp',
     tags: ['#process-mining', '#healthcare', '#simulation'],
     description: 'Applied process mining and simulation to detect inefficiencies, redesign workflows, and improve hospital pharmacy operations.'
   },
@@ -290,7 +308,8 @@ export const academicProjects = [
     goal: 'Analyze large-scale public crime datasets to identify spatial and temporal patterns of aggravated assaults near Pittsburgh landmarks using distributed data processing and geospatial clustering techniques.',
     techStack: ['Java', 'Hadoop', 'KML'],
     outcome: 'Implemented a MapReduce pipeline to process and aggregate urban crime data, producing geospatial clusters and KML visualizations for Google Earth. Enabled policy-relevant insights through interactive mapping of high-risk areas.',
-    image: '/images/projects/crime.png',
+    image: '/small_images/projects/crime_small.webp',
+    detailImage: '/small_images/projects/crime_medium.webp',
     tags: [ '#map-reduce', '#data-analytics', '#geospatial'],
     description: 'Developed a Hadoop-based workflow for distributed processing and geospatial visualization of urban crime data.'
   },
@@ -304,7 +323,8 @@ export const academicProjects = [
     goal: 'Design and implement a distributed dictionary system with a reactive Java server, analytics dashboard, and Android client capable of handling concurrent requests, logging events, and providing real-time user insights.',
     techStack: ['Java', 'MongoDB', 'Android Studio', 'TomEE'],
     outcome: 'Delivered a fully functional distributed system integrating TomEE-based backend services with MongoDB for event logging and data persistence. Developed an analytics dashboard to visualize query trends and usage metrics, and deployed an Android client for real-time dictionary access with API-driven definitions.',
-    image: '/images/projects/dictionary.png',
+    image: '/small_images/projects/dictionary_small.webp',
+    detailImage: '/small_images/projects/dictionary_medium.webp',
     tags: ['#distributed-systems', '#android', '#mongodb'],
     description: 'Built a distributed Java system with real-time API queries, MongoDB logging, and Android interface for definitions and analytics visualization.',
     github: [
@@ -322,7 +342,8 @@ export const academicProjects = [
     goal: 'Design, build, and deploy a scalable movie recommendation system capable of processing 1M+ user interactions and delivering real-time personalized predictions through a resilient MLOps architecture integrating data ingestion, training, deployment, and monitoring pipelines.',
     techStack: ['Python', 'PostgreSQL', 'Kafka', 'Docker', 'MLflow', 'Flask', 'Surprise ML'],
     outcome: 'Delivered a production-grade recommendation service with automated ETL, experiment tracking, and continuous model deployment using MLflow. Achieved stable real-time inference performance, modular containerization via Docker Compose, and reproducible pipelines supporting A/B evaluation across multiple model versions.',
-    image: '/images/projects/movies.png',
+    image: '/small_images/projects/movies_small.webp',
+    detailImage: '/small_images/projects/movies_medium.webp',
     tags: ['#mlops', '#recommendation-system', '#devops'],
     description: 'Developed an end-to-end recommender integrating Kafka streaming, MLflow tracking, and Dockerized microservices for scalable, low-latency movie predictions.',
     github: [
@@ -339,7 +360,8 @@ export const academicProjects = [
     goal: 'Develop a personalized financial learning assistant leveraging retrieval-augmented generation (RAG) for contextual and explainable learning.',
     techStack: ['Python', 'LangChain', 'Hugging Face', 'Milvus', 'Streamlit'],
     outcome: 'Built an interactive learning platform that retrieved curated financial content and generated traceable, adaptive answers through a Milvus-powered RAG pipeline.',
-    image: '/images/projects/lucas.png',
+    image: '/small_images/projects/lucas_small.webp',
+    detailImage: '/small_images/projects/lucas_medium.webp',
     tags: ['#rag', '#nlp', '#learning-platform'],
     description: 'Created a financial learning assistant integrating LangChain orchestration, Milvus retrieval, and a Streamlit interface for transparent, source-cited question answering.',
     github: [
@@ -358,7 +380,8 @@ export const academicProjects = [
     goal: 'Predict air quality for the next 6 hours in real time and deploy forecasting models using a production-grade MLOps pipeline.',
     techStack: ['Python', 'Kafka', 'XGBoost', 'MLflow', 'FastAPI', 'Evidently', 'Docker Compose', 'Streamlit'],
     outcome: 'Delivered a containerized system for streaming, training, inference, and drift monitoring with real-time visualization.',
-    image: '/images/projects/air-quality.png',
+    image: '/small_images/projects/air-quality_small.webp',
+    detailImage: '/small_images/projects/air-quality_medium.webp',
     tags: ['#mlops', '#forecasting', '#real-time'],
     description: 'Developed a real-time air quality forecasting system with Kafka streaming, MLflow tracking, and Evidently drift detection, orchestrated via Docker Compose and monitored through a Streamlit dashboard.',
     github: [
@@ -376,7 +399,8 @@ export const academicProjects = [
     goal: 'Assess and deploy an offline-capable electronic medical records (EMR) system for rural clinics with limited internet connectivity.',
     techStack: ['Flutter', 'Supabase', 'SQL', 'Docker'],
     outcome: 'Evaluated open-source EMR platforms, validated offline synchronization workflows, and deployed a viable system architecture tested for reliability and sustainability.',
-    image: '/images/projects/emr.png',
+    image: '/small_images/projects/emr_small.webp',
+    detailImage: '/small_images/projects/emr_medium.webp',
     tags: ['#healthtech', '#offline-systems', '#emr'],
     description: 'Focused on backend architecture, deployment, and testing of an offline EMR solution; assessed open-source alternatives for scalability and long-term viability in low-connectivity healthcare settings.'
   }

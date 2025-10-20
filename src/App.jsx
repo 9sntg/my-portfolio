@@ -76,7 +76,7 @@ function App() {
               marginBottom: '0.5rem'
             }}
           >
-            📍 Based in Bogotá, Colombia.
+            🎓 Master's Student in Information Systems Management at CMU
           </p>
 
           <p
@@ -86,7 +86,7 @@ function App() {
               color: '#000', // Black font
             }}
           >
-            💼 AI Engineering Intern at Atria
+            📍 Based in Pittsburgh, PA, USA
           </p>
         </section>
       </main>
